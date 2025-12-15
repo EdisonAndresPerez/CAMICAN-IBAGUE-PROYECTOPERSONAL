@@ -1,23 +1,19 @@
-
 'use client'
 
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { Textarea } from '@/components/ui/textarea'
-import { Card } from '@/components/ui/card'
-import { MapPin, Phone, Mail, Loader2, CheckCircle2, Shield, AlertCircle } from 'lucide-react'
-import { useState, useEffect, useRef } from 'react'
-import { COMPANY_INFO, SERVICES } from '@/lib/constants'
-import emailjs from '@emailjs/browser'
+import { Mail, Phone } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+
+import { ContactFormInner } from './contact/ContactFormInner'
+import { useContactForm } from './contact/useContactForm'
+import { COMPANY_INFO } from '@/lib/constants'
+import { Card } from './ui/card'
+
+
 
 export function ContactFormGmail() {
-  const [isLoading, setIsLoading] = useState(false)
-  const [submitted, setSubmitted] = useState(false)
-  const [error, setError] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
   const sectionRef = useRef<HTMLElement>(null)
-  const formRef = useRef<HTMLFormElement>(null)
+  const { formRef, handleSubmit, isLoading, submitted, error } = useContactForm()
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,37 +32,6 @@ export function ContactFormGmail() {
     return () => observer.disconnect()
   }, [])
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsLoading(true)
-    setError(false)
-
-    try {
-      // Enviar email usando EmailJS
-      const result = await emailjs.sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-        formRef.current!,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
-      )
-
-      console.log('Email enviado:', result.text)
-      setSubmitted(true)
-      formRef.current?.reset()
-
-      // Ocultar mensaje de éxito después de 5 segundos
-      setTimeout(() => {
-        setSubmitted(false)
-      }, 5000)
-    } catch (err) {
-      console.error('Error al enviar:', err)
-      setError(true)
-      setTimeout(() => setError(false), 5000)
-    } finally {
-      setIsLoading(false)
-    }
-  }
-
   return (
     <section ref={sectionRef} className="relative bg-slate-50 py-24 overflow-hidden" id="contacto">
       {/* Animated background */}
@@ -81,7 +46,7 @@ export function ContactFormGmail() {
             animation: isVisible ? 'fadeInDown 0.6s ease-out both' : 'none'
           }}
         >
-     
+      
           <h2 className="mb-4 text-4xl font-bold text-slate-950 text-balance lg:text-5xl">
             Solicita tu cotización <span className="text-cyan-500">gratis</span>
           </h2>
@@ -99,147 +64,13 @@ export function ContactFormGmail() {
               transform: isVisible ? 'translateY(0)' : 'translateY(20px)'
             }}
           >
-            <Card className="relative border-2 border-slate-200 bg-white p-8 shadow-xl transition-all duration-500 hover:shadow-2xl hover:border-cyan-400">
-              {/* Success overlay */}
-              {submitted && (
-                <div className="absolute inset-0 z-50 flex items-center justify-center rounded-lg bg-white/95 backdrop-blur-sm animate-in fade-in duration-300">
-                  <div className="text-center animate-in zoom-in duration-500">
-                    <CheckCircle2 className="mx-auto h-16 w-16 text-green-500 mb-4 animate-bounce" />
-                    <h3 className="text-2xl font-bold text-slate-950 mb-2">¡Mensaje enviado!</h3>
-                    <p className="text-slate-600">Te contactaremos pronto</p>
-                  </div>
-                </div>
-              )}
-
-              {/* Error overlay */}
-              {error && (
-                <div className="absolute inset-0 z-50 flex items-center justify-center rounded-lg bg-white/95 backdrop-blur-sm animate-in fade-in duration-300">
-                  <div className="text-center animate-in zoom-in duration-500">
-                    <AlertCircle className="mx-auto h-16 w-16 text-red-500 mb-4" />
-                    <h3 className="text-2xl font-bold text-slate-950 mb-2">Error al enviar</h3>
-                    <p className="text-slate-600">Por favor, intenta de nuevo</p>
-                  </div>
-                </div>
-              )}
-
-              <form ref={formRef} onSubmit={handleSubmit} id='contactame' className="space-y-6">
-                <div className="grid gap-6 sm:grid-cols-2">
-                  <div className="space-y-2 group">
-                    <Label htmlFor="nombre" className="text-slate-700 font-semibold">
-                      Nombre completo <span className="text-red-500">*</span>
-                    </Label>
-                    <Input 
-                      id="nombre" 
-                      name="nombre"
-                      placeholder="Juan Pérez" 
-                      required 
-                      className="transition-all duration-300 focus:border-cyan-400 focus:ring-cyan-400/20 focus:scale-[1.02]"
-                    />
-                  </div>
-                  <div className="space-y-2 group">
-                    <Label htmlFor="telefono" className="text-slate-700 font-semibold">
-                      Teléfono <span className="text-red-500">*</span>
-                    </Label>
-                    <Input 
-                      id="telefono" 
-                      name="telefono"
-                      type="tel" 
-                      placeholder="+57 300 123 4567" 
-                      required 
-                      className="transition-all duration-300 focus:border-cyan-400 focus:ring-cyan-400/20 focus:scale-[1.02]"
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-2 group">
-                  <Label htmlFor="email" className="text-slate-700 font-semibold">
-                    Email <span className="text-red-500">*</span>
-                  </Label>
-                  <Input 
-                    id="email" 
-                    name="email"
-                    type="email" 
-                    placeholder="juan@ejemplo.com" 
-                    required 
-                    className="transition-all duration-300 focus:border-cyan-400 focus:ring-cyan-400/20 focus:scale-[1.02]"
-                  />
-                </div>
-
-                <div className="space-y-2 group">
-                  <Label htmlFor="direccion" className="text-slate-700 font-semibold">
-                    Dirección del servicio <span className="text-red-500">*</span>
-                  </Label>
-                  <Input 
-                    id="direccion" 
-                    name="direccion"
-                    placeholder="Calle 10 #5-20, Ibagué" 
-                    required 
-                    className="transition-all duration-300 focus:border-cyan-400 focus:ring-cyan-400/20 focus:scale-[1.02]"
-                  />
-                </div>
-
-                <div className="space-y-2 group">
-                  <Label htmlFor="servicio" className="text-slate-700 font-semibold">
-                    Servicio de interés <span className="text-red-500">*</span>
-                  </Label>
-                  <select
-                    id="servicio"
-                    name="servicio"
-                    className="flex h-11 w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-base transition-all duration-300 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/20 focus:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-50"
-                    required
-                  >
-                    <option value="">Selecciona un servicio</option>
-                    {SERVICES.map((service) => (
-                      <option key={service.id} value={service.title}>
-                        {service.title}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                <div className="space-y-2 group">
-                  <Label htmlFor="mensaje" className="text-slate-700 font-semibold">
-                    Mensaje <span className="text-slate-400">(opcional)</span>
-                  </Label>
-                  <Textarea
-                    id="mensaje"
-                    name="mensaje"
-                    placeholder="Cuéntanos más sobre tus necesidades de seguridad..."
-                    rows={4}
-                    className="transition-all duration-300 focus:border-cyan-400 focus:ring-cyan-400/20 resize-none"
-                  />
-                </div>
-
-                <Button
-                  type="submit"
-                  size="lg"
-                  className="group relative w-full bg-cyan-400 text-slate-950 font-bold hover:bg-cyan-300 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-cyan-400/50 active:scale-95 overflow-hidden"
-                  disabled={isLoading || submitted}
-                >
-                  {/* Shine effect */}
-                  <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/30 to-transparent" />
-                  
-                  {isLoading ? (
-                    <>
-                      <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-                      Enviando tu solicitud...
-                    </>
-                  ) : (
-                    <span className="relative flex items-center justify-center gap-2">
-                      Solicitar Cotización Gratis
-                      <svg 
-                        className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" 
-                        fill="none" 
-                        viewBox="0 0 24 24" 
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                      </svg>
-                    </span>
-                  )}
-                </Button>
-              </form>
-            </Card>
+            <ContactFormInner
+              formRef={formRef}
+              handleSubmit={handleSubmit}
+              isLoading={isLoading}
+              submitted={submitted}
+              error={error}
+            />
           </div>
 
           <div 
