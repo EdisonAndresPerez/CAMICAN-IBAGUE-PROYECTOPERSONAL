@@ -1,7 +1,7 @@
 export const COMPANY_INFO = {
   name: 'CamiCan',
   phone: '+57 350709926',
-  phoneRaw: '573118193582',
+  phoneRaw: '573507309926',
   email: 'edisonandresperezmartinez@gmail.com',
   address: {
     street: 'Your Street',
