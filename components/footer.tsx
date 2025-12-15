@@ -13,31 +13,13 @@ export function Footer() {
               <span className="text-xl font-bold text-slate-950">{COMPANY_INFO.name}</span>
             </div>
             <p className="mb-4 text-slate-600 leading-relaxed">
-              Tu socio de confianza  <strong>Camilo</strong>  en sistemas de seguridad y vigilancia. 
+              Tu socio de confianza  <strong>Camilo Andres Oviedo B</strong>  en sistemas de seguridad y vigilancia. 
               Protegemos lo que más te importa con tecnología de vanguardia.
             </p>
             <div className="flex gap-4">
               {COMPANY_INFO.social.facebook && (
                 <Link href={COMPANY_INFO.social.facebook} className="text-slate-600 hover:text-cyan-400 transition-colors" aria-label="Facebook">
                   <Facebook className="h-5 w-5" />
-                </Link>
-              )}
-
-              {COMPANY_INFO.social.instagram && (
-                <Link href={COMPANY_INFO.social.instagram} className="text-slate-600 hover:text-cyan-400 transition-colors" aria-label="Instagram">
-                  <Instagram className="h-5 w-5" />
-                </Link>
-              )}
-
-              {COMPANY_INFO.social.twitter && (
-                <Link href={COMPANY_INFO.social.twitter} className="text-slate-600 hover:text-cyan-400 transition-colors" aria-label="Twitter">
-                  <Twitter className="h-5 w-5" />
-                </Link>
-              )}
-
-              {COMPANY_INFO.social.linkedin && (
-                <Link href={COMPANY_INFO.social.linkedin} className="text-slate-600 hover:text-cyan-400 transition-colors" aria-label="LinkedIn">
-                  <Linkedin className="h-5 w-5" />
                 </Link>
               )}
             </div>

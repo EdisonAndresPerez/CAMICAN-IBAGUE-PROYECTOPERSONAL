@@ -433,3 +433,754 @@ Import trace:
 [00:55:39.698] Server  LOG      ✓ Compiled in 79ms
 [00:55:44.226] Server  LOG      ✓ Compiled in 89ms
 [00:57:08.882] Server  LOG      ✓ Compiled in 99ms
+[00:59:44.641] Browser ERROR   ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:59:46.887] Server  ERROR    ⨯ ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+
+
+[00:59:47.013] Browser ERROR   ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:59:47.763] Browser ERROR   ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:59:47.763] Browser ERROR   ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:59:48.013] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\shared\lib\turbopack\utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.015] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\dev\turbopack-utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.019] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.021] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.023] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\lib\dev-bundler-service.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.026] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.027] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\route-matcher-managers\dev-route-matcher-manager.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.029] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\route-matcher-managers\default-route-matcher-manager.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.035] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.078] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.097] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.099] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.103] Server  ERROR   ModuleBuildError: ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+
+
+[00:59:48.234] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.244] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\compiled\next-server\pages-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.249] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\route-modules\pages\module.compiled.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.250] Server  ERROR   C:\Users\charm\Downloads\CAMARAS_IBAGUE\node_modules\next\dist\server\route-modules\pages\vendored\contexts\html-context.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:59:48.252] Server  ERROR   Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      18.3.1
+  - react-dom:  19.2.3
+Learn more: https://react.dev/warnings/version-mismatch
+[00:59:48.256] Browser ERROR   ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:59:48.256] Browser ERROR   ./components/footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </footer>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:59:53.168] Server  LOG      ✓ Compiled in 77ms
+[00:59:57.771] Server  LOG      ✓ Compiled in 96ms
+[01:00:00.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:01.205] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:00:01.205] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:00:01.205] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765767402457}
+[01:02:04.795] Server  LOG      ✓ Compiled in 217ms
+[01:03:25.147] Server  LOG      ✓ Compiled in 249ms
+[01:03:37.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:37.685] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:03:37.685] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:03:37.685] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#cameras color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#cameras","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765767618933}
+[01:03:50.781] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.788] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.794] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.798] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.810] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.815] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.822] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.829] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.833] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.842] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.846] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.849] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.859] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.862] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.866] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.872] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.877] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.880] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.899] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.912] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.918] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.926] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.929] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.932] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.941] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.945] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.948] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.956] Server  ERROR    ⨯ ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:50.958] Server  LOG      ✓ Compiled in 266ms
+[01:03:51.065] Browser ERROR   ./components/services.tsx:7:1
+Module not found: Can't resolve './services.module.css'
+   5 | import { SERVICES } from '@/lib/constants'
+   6 | import { useEffect, useRef, useState } from 'react'
+>  7 | import styles from './services.module.css'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function Services() {
+  10 |   const [isVisible, setIsVisible] = useState(false)
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:03.250] Server  LOG      ✓ Compiled in 441ms
+[01:09:06.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:07.060] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:07.060] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:09:07.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#smart-locks color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#smart-locks","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765767948312}
+[01:09:23.475] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:23.753] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:23.753] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:09:23.753] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#smart-locks color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#smart-locks","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765767964998}
+[01:10:03.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:04.108] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:04.108] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:10:04.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#electric-fences color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#electric-fences","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765768005359}
+[01:10:09.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:10.187] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:10.187] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:10:10.187] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#electric-fences color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#electric-fences","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765768011430}
+[01:10:23.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:23.810] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:23.810] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:10:23.810] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#alarms color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#alarms","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765768025062}
+[01:10:59.962] Server  LOG      ✓ Compiled in 238ms
+[01:11:22.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:23.138] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:11:23.139] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:11:23.139] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#alarms color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#alarms","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765768084378}
