@@ -53,7 +53,7 @@ export function Hero() {
             <strong>Camilo Andres Oviedo B</strong>
           </p>
 
-          <div className="flex flex-col gap-15 sm:flex-row">
+          <div className="flex flex-col gap-9 sm:flex-row">
             {/* Botón Solicitar Cotización */}
             <div className="relative group">
               <div className="absolute inset-0 bg-cyan-400/30 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
@@ -74,7 +74,7 @@ export function Hero() {
                 className="relative bg-cyan-400 text-slate-950 hover:bg-cyan-300 text-lg px-8 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan-400/50"
               >
                 {/* Pulse ring */}
-                <span className="absolute inset-0 rounded-md border border-cyan-300 opacity-0 group-hover:opacity-50 animate-ping" />
+                <span className="absolute inset-0 rounded-md border border-cyan-300 opacity-0 group-hover:opacity-50" />
                 <span className="relative">Solicitar cotización gratis</span>
               </Button>
 

@@ -59,7 +59,8 @@ export function Services() {
     }
   }, [])
 
-  // Re-aplica la animación aunque el hash sea el mismo (clic repetido en el mismo link)
+ 
+
   useEffect(() => {
     const handleAnchorClick = (event: MouseEvent) => {
       const target = event.target as HTMLElement | null
@@ -122,8 +123,8 @@ export function Services() {
                 <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-transparent via-cyan-400/5 to-transparent" />
                 
                 {/* Icon with animation */}
-                <div className={`relative mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-slate-950 text-cyan-400 transition-all duration-500 group-active:bg-cyan-400 group-active:text-slate-950 group-active:rotate-6 group-active:scale-110 md:group-hover:bg-cyan-400 md:group-hover:text-slate-950 md:group-hover:rotate-6 md:group-hover:scale-110 shadow-lg shadow-slate-950/20 ${isActive ? 'bg-cyan-400 text-slate-950 rotate-6 scale-110 shadow-cyan-400/40' : ''}`}>
-                  <Icon className="h-7 w-7 transition-transform duration-500 group-hover:scale-110" />
+                <div className={`relative mb-4 flex h-14 w-14 items-center justify-center rounded-lg text-cyan-400 transition-all duration-500 group-active:bg-cyan-400 group-active:text-slate-950 group-active:rotate-6 group-active:scale-110 md:group-hover:bg-cyan-400 md:group-hover:text-slate-950 md:group-hover:rotate-6 md:group-hover:scale-110 shadow-lg shadow-slate-950/20 ${isActive ? 'bg-cyan-400 text-slate-950 rotate-6 scale-110 shadow-cyan-400/40' : ''}`}>
+                  <Icon className={`h-7 w-7 transition-transform duration-500 group-hover:scale-110 text-inherit ${isActive ? 'animate-bounce' : ''}`} />
                   {/* Pulse ring */}
                   <div className={`absolute inset-0 rounded-lg border-2 border-cyan-400 opacity-0 group-hover:opacity-100 group-hover:scale-125 transition-all duration-500 ${isActive ? 'opacity-100 scale-125 animate-ping' : ''}`} />
                 </div>
