@@ -1,7 +1,6 @@
 "use client";
 
-import { Phone, Shield } from "lucide-react";
-import Link from "next/link";
+import { Shield } from "lucide-react";
 import { COMPANY_INFO } from "@/lib/constants";
 import CustomPhoneButton from "./CustomPhoneButton";
 

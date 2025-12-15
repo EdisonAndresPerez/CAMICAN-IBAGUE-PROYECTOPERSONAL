@@ -75,3 +75,361 @@
 [00:14:15.601] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765764656854}
 [00:16:41.190] Server  LOG      ✓ Compiled in 157ms
 [00:16:44.228] Server  LOG      ✓ Compiled in 87ms
+[00:19:36.913] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:37.193] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:37.193] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:37.193] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765764978436}
+[00:19:41.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:41.414] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:41.414] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:41.414] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765764982666}
+[00:19:46.732] Server  LOG      ✓ Compiled in 87ms
+[00:19:48.094] Server  LOG      ✓ Compiled in 117ms
+[00:19:48.187] Browser ERROR   ./components/contact/ContactFormInner.tsx:33:5
+Parsing ecmascript source code failed
+  31 |
+  32 |
+> 33 |     confetti({
+     |     ^^^^^^^^
+  34 |       particleCount: 100,
+  35 |       spread: 120,
+  36 |       origin: { y: 0.6 },
+
+Expected '(', got 'confetti'
+
+Import traces:
+  Client Component Browser:
+    ./components/contact/ContactFormInner.tsx [Client Component Browser]
+    ./components/Contactformemailjs.tsx [Client Component Browser]
+    ./components/Contactformemailjs.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/contact/ContactFormInner.tsx [Client Component SSR]
+    ./components/Contactformemailjs.tsx [Client Component SSR]
+    ./components/Contactformemailjs.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:19:52.411] Server  LOG      ✓ Compiled in 99ms
+[00:19:55.593] Server  LOG      ✓ Compiled in 182ms
+[00:19:58.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:58.627] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:58.627] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:58.627] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765764999876}
+[00:21:43.599] Server  LOG      ✓ Compiled in 103ms
+[00:21:45.719] Server  LOG      ✓ Compiled in 98ms
+[00:25:39.472] Server  LOG      ✓ Compiled in 118ms
+[00:25:53.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:53.251] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:25:53.251] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:25:53.251] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765765354496}
+[00:28:02.194] Server  LOG      ✓ Compiled in 209ms
+[00:28:24.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:24.910] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:28:24.910] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:28:24.910] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765765506149}
+[00:29:24.668] Server  LOG      ✓ Compiled in 247ms
+[00:29:38.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:39.099] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:39.099] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:29:39.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765765580340}
+[00:29:51.020] Server  LOG      ✓ Compiled in 150ms
+[00:29:54.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:54.476] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:54.477] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:29:54.477] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765765595721}
+[00:34:02.303] Server  LOG      ✓ Compiled in 111ms
+[00:34:02.405] Browser ERROR   ./components/Contactformemailjs.tsx:89:20
+Parsing ecmascript source code failed
+  87 |               <p className="text-sm text-slate-500">Lun - Sáb: 8AM - 8PM</p>
+  88 |               <div className="mt-4 h-1 w-0 bg-gradient-to-r from-cyan-400 to-cyan-600 rounded-full group-hover:w-full transition-all duration-500" />
+> 89 |             </Card>
+     |                    ^
+> 90 |
+     | ^
+> 91 |             <Card className="group border-2 border-slate-200 bg-white p-6 transition-all duration-500 active:scale-95 md:hover:border-cyan-400 md:hover:shadow-xl md:hover:shadow-cyan-400/10 md:hover:-translate-y-2">
+     | ^^^^^^^^^^^^^
+  92 |               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-slate-950 text-cyan-400 transition-all duration-500 group-active:bg-cyan-400 group-active:text-slate-950 group-active:scale-110 group-active:rotate-6 md:group-hover:bg-cyan-400 md:group-hover:text-slate-950 md:group-hover:scale-110 md:group-hover:rotate-6 shadow-lg">
+  93 |                 <Mail className="h-6 w-6 transition-transform duration-500 md:group-hover:scale-110" />
+  94 |               </div>
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:20.221] Browser ERROR   ./components/Contactformemailjs.tsx:89:20
+Parsing ecmascript source code failed
+  87 |               <p className="text-sm text-slate-500">Lun - Sáb: 8AM - 8PM</p>
+  88 |               <div className="mt-4 h-1 w-0 bg-gradient-to-r from-cyan-400 to-cyan-600 rounded-full group-hover:w-full transition-all duration-500" />
+> 89 |             </Card>
+     |                    ^
+> 90 |
+     | ^
+> 91 |             <Card className="group border-2 border-slate-200 bg-white p-6 transition-all duration-500 active:scale-95 md:hover:border-cyan-400 md:hover:shadow-xl md:hover:shadow-cyan-400/10 md:hover:-translate-y-2">
+     | ^^^^^^^^^^^^^
+  92 |               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-slate-950 text-cyan-400 transition-all duration-500 group-active:bg-cyan-400 group-active:text-slate-950 group-active:scale-110 group-active:rotate-6 md:group-hover:bg-cyan-400 md:group-hover:text-slate-950 md:group-hover:scale-110 md:group-hover:rotate-6 shadow-lg">
+  93 |                 <Mail className="h-6 w-6 transition-transform duration-500 md:group-hover:scale-110" />
+  94 |               </div>
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:22.031] Browser ERROR   ./components/Contactformemailjs.tsx:89:20
+Parsing ecmascript source code failed
+  87 |               <p className="text-sm text-slate-500">Lun - Sáb: 8AM - 8PM</p>
+  88 |               <div className="mt-4 h-1 w-0 bg-gradient-to-r from-cyan-400 to-cyan-600 rounded-full group-hover:w-full transition-all duration-500" />
+> 89 |             </Card>
+     |                    ^
+> 90 |
+     | ^
+> 91 |             <Card className="group border-2 border-slate-200 bg-white p-6 transition-all duration-500 active:scale-95 md:hover:border-cyan-400 md:hover:shadow-xl md:hover:shadow-cyan-400/10 md:hover:-translate-y-2">
+     | ^^^^^^^^^^^^^
+  92 |               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-slate-950 text-cyan-400 transition-all duration-500 group-active:bg-cyan-400 group-active:text-slate-950 group-active:scale-110 group-active:rotate-6 md:group-hover:bg-cyan-400 md:group-hover:text-slate-950 md:group-hover:scale-110 md:group-hover:rotate-6 shadow-lg">
+  93 |                 <Mail className="h-6 w-6 transition-transform duration-500 md:group-hover:scale-110" />
+  94 |               </div>
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:34.675] Server  LOG      ✓ Compiled in 93ms
+[00:34:34.782] Browser ERROR   ./components/Contactformemailjs.tsx:88:7
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |         </div>
+> 88 |       </div>
+     |       ^
+  89 |     </section>
+  90 |   )
+  91 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:34.782] Browser ERROR   ./components/Contactformemailjs.tsx:88:8
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |         </div>
+> 88 |       </div>
+     |        ^^^^^
+  89 |     </section>
+  90 |   )
+  91 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:40.132] Browser ERROR   ./components/Contactformemailjs.tsx:88:5
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |       </div>
+> 88 |     </section>
+     |     ^
+  89 |   )
+  90 | }
+  91 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:40.132] Browser ERROR   ./components/Contactformemailjs.tsx:88:6
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |       </div>
+> 88 |     </section>
+     |      ^^^^^^^^^
+  89 |   )
+  90 | }
+  91 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:50.244] Server  LOG      ✓ Compiled in 205ms
+[00:34:50.350] Browser ERROR   ./components/Contactformemailjs.tsx:88:1
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |   )
+> 88 | }
+     | ^
+  89 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:57.571] Server  LOG      ✓ Compiled in 94ms
+[00:34:57.668] Browser ERROR   ./components/Contactformemailjs.tsx:88:5
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |       </div>
+> 88 |     </section>
+     |     ^
+  89 |   )
+  90 | }
+  91 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:34:57.668] Browser ERROR   ./components/Contactformemailjs.tsx:88:6
+Parsing ecmascript source code failed
+  86 |           </div>
+  87 |       </div>
+> 88 |     </section>
+     |      ^^^^^^^^^
+  89 |   )
+  90 | }
+  91 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/Contactformemailjs.tsx
+    ./app/page.tsx
+[00:35:03.468] Server  LOG      ✓ Compiled in 95ms
+[00:36:05.489] Server  LOG      ✓ Compiled in 325ms
+[00:37:08.848] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:09.144] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:09.144] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:09.144] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766030396}
+[00:37:14.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:14.655] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:14.655] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:14.655] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766035901}
+[00:37:19.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:19.874] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:19.874] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:19.874] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766041122}
+[00:37:24.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:24.905] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:24.905] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:24.905] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766046156}
+[00:38:11.092] Server  LOG      ✓ Compiled in 120ms
+[00:38:16.079] Server  LOG      ✓ Compiled in 100ms
+[00:38:25.323] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:25.536] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:25.536] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:38:25.536] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766106787}
+[00:38:54.841] Server  LOG      ✓ Compiled in 89ms
+[00:39:20.763] Server  LOG      ✓ Compiled in 98ms
+[00:39:57.372] Server  LOG      ✓ Compiled in 132ms
+[00:41:44.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:45.032] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:41:45.032] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:41:45.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766306277}
+[00:42:02.007] Server  LOG      ✓ Compiled in 95ms
+[00:42:29.726] Server  LOG      ✓ Compiled in 195ms
+[00:42:42.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:42.269] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:42:42.269] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:42:42.269] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766363514}
+[00:43:09.900] Server  LOG      ✓ Compiled in 87ms
+[00:43:19.681] Server  LOG      ✓ Compiled in 79ms
+[00:43:28.910] Server  LOG      ✓ Compiled in 72ms
+[00:43:59.685] Server  LOG      ✓ Compiled in 86ms
+[00:44:08.463] Server  LOG      ✓ Compiled in 101ms
+[00:44:20.292] Server  LOG      ✓ Compiled in 79ms
+[00:44:24.717] Server  LOG      ✓ Compiled in 84ms
+[00:44:38.840] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:39.070] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:39.070] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:39.070] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766480320}
+[00:45:21.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:21.902] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:21.902] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:21.902] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765766523153}
+[00:46:09.241] Server  LOG      ✓ Compiled in 91ms
+[00:46:13.428] Server  LOG      ✓ Compiled in 79ms
+[00:46:16.700] Server  LOG      ✓ Compiled in 85ms
+[00:46:27.158] Server  LOG      ✓ Compiled in 135ms
+[00:46:29.817] Server  LOG      ✓ Compiled in 100ms
+[00:46:32.208] Server  LOG      ✓ Compiled in 86ms
+[00:46:47.377] Server  LOG      ✓ Compiled in 86ms
+[00:47:49.913] Server  LOG      ✓ Compiled in 94ms
+[00:49:43.422] Server  LOG      ✓ Compiled in 336ms
+[00:49:43.513] Browser ERROR   ./components/stats.tsx:139:7
+Ecmascript file had an error
+  137 |
+  138 | // Add this to your globals.css if not already there
+> 139 | const styles = `
+      |       ^^^^^^
+  140 | @keyframes fadeInUp {
+  141 |   from {
+  142 |     opacity: 0;
+
+the name `styles` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/stats.tsx
+    ./app/page.tsx
+[00:49:52.707] Server  LOG      ✓ Compiled in 147ms
+[00:49:52.834] Browser ERROR   ./components/stats.tsx:136:7
+Ecmascript file had an error
+  134 |
+  135 | // Add this to your globals.css if not already there
+> 136 | const styles = `
+      |       ^^^^^^
+  137 | @keyframes fadeInUp {
+  138 |   from {
+  139 |     opacity: 0;
+
+the name `styles` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/stats.tsx
+    ./app/page.tsx
+[00:50:05.781] Server  LOG      ✓ Compiled in 102ms
+[00:50:05.880] Browser ERROR   ./components/stats.tsx:126:7
+Ecmascript file had an error
+  124 |
+  125 | // Add this to your globals.css if not already there
+> 126 | const styles = `
+      |       ^^^^^^
+  127 | @keyframes fadeInUp {
+  128 |   from {
+  129 |     opacity: 0;
+
+the name `styles` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/stats.tsx
+    ./app/page.tsx
+[00:50:13.403] Server  LOG      ✓ Compiled in 182ms
+[00:55:34.029] Server  LOG      ✓ Compiled in 110ms
+[00:55:39.698] Server  LOG      ✓ Compiled in 79ms
+[00:55:44.226] Server  LOG      ✓ Compiled in 89ms
+[00:57:08.882] Server  LOG      ✓ Compiled in 99ms

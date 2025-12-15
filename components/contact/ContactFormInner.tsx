@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import confetti from "canvas-confetti";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -25,15 +24,7 @@ export function ContactFormInner({
 }: ContactFormInnerProps) {
   const hasFired = useRef(false);
 
-  useEffect(() => {
-    confetti({
-      particleCount: 100,
-      spread: 120,
-      origin: { y: 0.6 },
-    });
-  }, [submitted, formRef]);
-
-  // Reset flag when vuelve a estado no enviado
+  
   useEffect(() => {
     if (!submitted) {
       hasFired.current = false;

@@ -1,9 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Shield, Phone } from "lucide-react";
-import Link from "next/link";
-import { COMPANY_INFO, NAV_LINKS } from "@/lib/constants";
 import { useEffect, useState } from "react";
 import CustomNavigation from "./custom/CustomNavigation";
 
@@ -42,7 +39,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-400 opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan-400" />
             </span>
-            Protección 24/7 para tu seguridad
+            Protección 24/7 para tu hogar y negocio
           </div>
 
           <h1 className="mb-6 text-5xl font-bold leading-tight tracking-tight text-balance lg:text-7xl">
@@ -51,18 +48,16 @@ export function Hero() {
 
           <p className="mb-8 text-xl text-slate-300 leading-relaxed text-pretty">
             Instalación profesional de cámaras de seguridad para casas,
-            edificios y negocios. Tecnología de punta con monitoreo en tiempo
-            real y Protección 24/7 con tecnología de última generación. <br />
+            edificios y negocios. Tecnología de ultima marca con monitoreo en tiempo
+            real y Protección 24/7. <br />
             <strong>Camilo Andres Oviedo B</strong>
           </p>
 
-          <div className="flex flex-col gap-10 sm:flex-row">
-
+          <div className="flex flex-col gap-15 sm:flex-row">
             {/* Botón Solicitar Cotización */}
             <div className="relative group">
-              {/* Glow effect background */}
               <div className="absolute inset-0 bg-cyan-400/30 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
-              
+
               <Button
                 onClick={() => {
                   const el = document.getElementById("contactame");
@@ -74,6 +69,7 @@ export function Hero() {
 
                   window.scrollTo({ top: y, behavior: "smooth" });
                 }}
+                variant="outline"
                 size="lg"
                 className="relative bg-cyan-400 text-slate-950 hover:bg-cyan-300 text-lg px-8 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan-400/50"
               >
@@ -91,9 +87,8 @@ export function Hero() {
 
             {/* Botón Ver Servicios */}
             <div className="relative group">
-              {/* Glow effect background */}
               <div className="absolute inset-0 bg-cyan-400/20 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
-              
+
               <Button
                 onClick={() => {
                   const el = document.getElementById("servicios");

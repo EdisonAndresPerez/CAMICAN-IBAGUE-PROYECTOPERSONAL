@@ -27,10 +27,15 @@ export function CTA() {
               window.scrollTo({ top: y, behavior: "smooth" });
             }}
             size="lg" 
-            className="bg-cyan-400 text-slate-950 hover:bg-cyan-300 text-lg px-8"
+            className="group relative bg-cyan-400 text-slate-950 font-bold hover:bg-cyan-300 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-cyan-400/50 active:scale-95 overflow-hidden text-lg px-8"
           >
-            Agenda una visita gratis
-            <ArrowRight className="ml-2 h-5 w-5" />
+            {/* Shine effect */}
+            <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/30 to-transparent" />
+            
+            <span className="relative flex items-center justify-center gap-2">
+              Agenda una visita gratis
+              <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+            </span>
           </Button>
         </div>
       </div>
