@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import CustomNavigation from "./custom/CustomNavigation";
+import CustomPhoneButton from "./custom/CustomPhoneButton";
 
 export function Hero() {
   const [mounted, setMounted] = useState(false);
@@ -53,9 +54,10 @@ export function Hero() {
             <strong>Camilo Andres Oviedo B</strong>
           </p>
 
-          <div className="flex flex-col gap-9 sm:flex-row">
+          <div className="flex flex-col  gap-9 sm:flex-row">
+            
             {/* Botón Solicitar Cotización */}
-            <div className="relative group">
+            <div className="relative group flex justify-center">
               <div className="absolute inset-0 bg-cyan-400/30 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
 
               <Button
@@ -86,7 +88,7 @@ export function Hero() {
             </div>
 
             {/* Botón Ver Servicios */}
-            <div className="relative group">
+            <div className="relative group flex justify-center">
               <div className="absolute inset-0 bg-cyan-400/20 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
 
               <Button
@@ -115,6 +117,9 @@ export function Hero() {
                 <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-cyan-400 rotate-45" />
               </div>
             </div>
+
+            {/* Botón WhatsApp (Solo Mobile) */}
+            <CustomPhoneButton mobileOnly={true} />
           </div>
         </div>
       </div>

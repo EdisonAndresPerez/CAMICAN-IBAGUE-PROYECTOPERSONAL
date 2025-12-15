@@ -2,14 +2,14 @@ import { Phone, Shield } from "lucide-react";
 import Link from "next/link";
 import { COMPANY_INFO } from "@/lib/constants";
 
-const CustomPhoneButton = () => {
+const CustomPhoneButton = ({ mobileOnly = false }) => {
   return (
     <>
       <Link
-        href={`https://wa.me/${COMPANY_INFO.phoneRaw}`}
+        href={`https://wa.me/${COMPANY_INFO.phoneRaw}?text=Hola,%20me%20gustaría%20solicitar%20una%20cotización%20para%20servicios%20de%20seguridad.`}
         target="_blank"
         rel="noopener noreferrer"
-        className="hidden sm:flex items-center gap-3 group relative"
+        className={`${mobileOnly ? "sm:hidden flex w-full justify-center" : "hidden sm:flex"} items-center gap-3 group relative`}
       >
         {/* Glow effect background */}
         <div className="absolute inset-0 bg-cyan-400/20 rounded-full blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />

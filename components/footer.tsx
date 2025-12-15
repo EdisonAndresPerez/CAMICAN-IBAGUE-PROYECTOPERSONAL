@@ -14,14 +14,11 @@ export function Footer() {
             </div>
             <p className="mb-4 text-slate-600 leading-relaxed">
               Tu socio de confianza  <strong>Camilo Andres Oviedo B</strong>  en sistemas de seguridad y vigilancia. 
-              Protegemos lo que más te importa con tecnología de vanguardia.
+              Protegemos lo que más te importa con tecnología de calidad!.
+              
             </p>
             <div className="flex gap-4">
-              {COMPANY_INFO.social.facebook && (
-                <Link href={COMPANY_INFO.social.facebook} className="text-slate-600 hover:text-cyan-400 transition-colors" aria-label="Facebook">
-                  <Facebook className="h-5 w-5" />
-                </Link>
-              )}
+      
             </div>
           </div>
 
