@@ -1,6 +1,7 @@
 import { Shield, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 import { COMPANY_INFO, SERVICES } from '@/lib/constants'
+import { ROUTES } from '@/lib/routes'
 
 export function Footer() {
   return (
@@ -38,10 +39,9 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-bold text-slate-950">Empresa</h3>
             <ul className="space-y-2 text-slate-600">
-              <li><Link href="#" className="hover:text-cyan-400 transition-colors">Nosotros</Link></li>
-              <li><Link href="#" className="hover:text-cyan-400 transition-colors">Casos de éxito</Link></li>
-              <li><Link href="#" className="hover:text-cyan-400 transition-colors">Blog</Link></li>
-              <li><Link href="#" className="hover:text-cyan-400 transition-colors">Contacto</Link></li>
+              <li><Link href={ROUTES.NOSOTROS} className="hover:text-cyan-400 transition-colors">Nosotros</Link></li>
+              <li><Link href={ROUTES.CASOS_EXITO} className="hover:text-cyan-400 transition-colors">Casos de éxito</Link></li>
+              <li><Link href={ROUTES.BLOG} className="hover:text-cyan-400 transition-colors">Blog</Link></li>
             </ul>
           </div>
         </div>
