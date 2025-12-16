@@ -46,25 +46,33 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   }
 
-  const supabase = getSupabaseAdmin();
+  try {
+    const supabase = getSupabaseAdmin();
 
-  const { error } = await supabase.from("leads").insert({
-    nombre: lead.nombre,
-    telefono: lead.telefono,
-    email: lead.email,
-    direccion: lead.direccion,
-    servicio: lead.servicio,
-    mensaje: lead.mensaje ?? null,
-    page_url: lead.pageUrl ?? null,
-    user_agent: lead.userAgent ?? null,
-  });
+    const { error } = await supabase.from("leads").insert({
+      nombre: lead.nombre,
+      telefono: lead.telefono,
+      email: lead.email,
+      direccion: lead.direccion,
+      servicio: lead.servicio,
+      mensaje: lead.mensaje ?? null,
+      page_url: lead.pageUrl ?? null,
+      user_agent: lead.userAgent ?? null,
+    });
 
-  if (error) {
+    if (error) {
+      return NextResponse.json(
+        { ok: false, error: error.message },
+        { status: 500 },
+      );
+    }
+
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown server error";
     return NextResponse.json(
-      { ok: false, error: error.message },
+      { ok: false, error: message },
       { status: 500 },
     );
   }
-
-  return NextResponse.json({ ok: true });
 }
