@@ -1,6 +1,4 @@
 "use client";
-
-import { useEffect, useRef } from "react";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -22,15 +20,6 @@ export function ContactFormInner({
   submitted,
   error,
 }: ContactFormInnerProps) {
-  const hasFired = useRef(false);
-
-  
-  useEffect(() => {
-    if (!submitted) {
-      hasFired.current = false;
-    }
-  }, [submitted]);
-
   return (
     <Card className="relative border-2 border-slate-200 bg-white p-8 shadow-xl transition-all duration-500 hover:shadow-2xl hover:border-cyan-400">
       {submitted && (
