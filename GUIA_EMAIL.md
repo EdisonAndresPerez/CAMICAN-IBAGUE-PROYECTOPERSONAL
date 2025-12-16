@@ -51,7 +51,7 @@ Enviado desde el formulario de CamiCan
 
 ```bash
 cd /home/eplynuxdev/Downloads/CAMARAS_IBAGUE
-pnpm add @emailjs/browser
+npm install @emailjs/browser
 ```
 
 ### Paso 6: Configurar Variables de Entorno
@@ -116,7 +116,7 @@ export async function POST(request: Request) {
 }
 ```
 
-4. **Instalar**: `pnpm add resend`
+4. **Instalar**: `npm install resend`
 5. **Variables de entorno**: `RESEND_API_KEY=tu_api_key`
 
 ---

@@ -18,3 +18,6 @@ yarn-error.log*
 *~
 .cache/
 coverage/
+
+# Package manager lockfiles
+pnpm-lock.yaml

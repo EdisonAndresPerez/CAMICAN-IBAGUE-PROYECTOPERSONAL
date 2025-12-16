@@ -35,9 +35,9 @@ git push origin main
 
 Vercel detectará automáticamente:
 - **Framework**: Next.js
-- **Build Command**: `pnpm build`
+- **Build Command**: `npm run build`
 - **Output Directory**: `.next`
-- **Install Command**: `pnpm install`
+- **Install Command**: `npm install`
 
 Simplemente click en **"Deploy"**
 
@@ -131,15 +131,15 @@ Después del deploy tendrás:
 ### Error: "Build failed"
 ```bash
 # Verifica que el build funcione localmente
-pnpm build
+npm run build
 
 # Si hay errores, corrígelos antes de deploy
 ```
 
 ### Error: "No se encuentran dependencias"
 ```bash
-# Asegúrate que package.json y pnpm-lock.yaml estén en el repo
-git add package.json pnpm-lock.yaml
+# Asegúrate que package.json y package-lock.json estén en el repo
+git add package.json package-lock.json
 git commit -m "fix: Agregar archivos de dependencias"
 git push
 ```

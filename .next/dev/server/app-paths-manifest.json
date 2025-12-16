@@ -1,8 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/casos-de-exito/page": "app/casos-de-exito/page.js",
-  "/nosotros/page": "app/nosotros/page.js",
-  "/page": "app/page.js",
-  "/robots.txt/route": "app/robots.txt/route.js"
-}

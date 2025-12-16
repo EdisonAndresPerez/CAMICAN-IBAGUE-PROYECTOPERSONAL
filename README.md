@@ -51,7 +51,7 @@ Landing page profesional para empresa de instalación y mantenimiento de sistema
 ## ✅ Pre-Deploy Checklist
 
 - [x] Dependencias instaladas correctamente
-- [x] Build exitoso (`pnpm build`)
+- [x] Build exitoso (`npm run build`)
 - [x] TypeScript sin errores críticos
 - [x] Imágenes optimizadas
 - [x] SEO configurado (sitemap, robots.txt)
