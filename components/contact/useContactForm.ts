@@ -13,7 +13,9 @@ export function useContactForm() {
     e.preventDefault();
 
     // Honeypot: si el campo oculto tiene valor, es bot
-    const honeypot = (formRef.current?.elements.namedItem("website") as HTMLInputElement | null)?.value;
+    const honeypot = (
+      formRef.current?.elements.namedItem("website") as HTMLInputElement | null
+    )?.value;
     if (honeypot) {
       return;
     }
@@ -22,15 +24,45 @@ export function useContactForm() {
     setError(false);
 
     try {
+      const form = formRef.current;
+      if (!form) throw new Error("Form ref not found");
+
+      const data = new FormData(form);
+      const payload = {
+        nombre: String(data.get("nombre") ?? ""),
+        telefono: String(data.get("telefono") ?? ""),
+        email: String(data.get("email") ?? ""),
+        direccion: String(data.get("direccion") ?? ""),
+        servicio: String(data.get("servicio") ?? ""),
+        mensaje: String(data.get("mensaje") ?? ""),
+        website: String(data.get("website") ?? ""),
+        pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
+        userAgent:
+          typeof navigator !== "undefined" ? navigator.userAgent : undefined,
+      };
+
+      // 1) Guardar lead en Supabase (server)
+      const res = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        const txt = await res.text().catch(() => "");
+        throw new Error(txt || "Failed to save lead");
+      }
+
+      // 2) Notificar por EmailJS (cliente)
       await emailjs.sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-        formRef.current!,
+        form,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
       setSubmitted(true);
-      formRef.current?.reset();
+      form.reset();
 
       // Oculta el estado de éxito tras 5s
       setTimeout(() => setSubmitted(false), 5000);

@@ -38,7 +38,7 @@ export function AboutHero() {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 text-balance">
-             <strong>CamiCan</strong> Prote lo que más
+             <strong>CamiCan</strong> Protege lo que más
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
               te importa
             </span>
