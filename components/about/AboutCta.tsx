@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Phone } from "lucide-react"
 import { COMPANY_INFO } from "@/lib/constants"
 import Link from "next/link"
+import CustomPhoneButton from "../custom/CustomPhoneButton"
 
 export function AboutCTA() {
   const ref = useRef(null)
@@ -44,17 +45,7 @@ export function AboutCTA() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white/20 text-white hover:bg-white/10 text-lg h-14 px-8 bg-transparent"
-            >
-              <a href={`tel:${COMPANY_INFO.phoneRaw}`}>
-                <Phone className="mr-2 h-5 w-5" />
-                Llamar Ahora
-              </a>
-            </Button>
+            <CustomPhoneButton/>
           </div>
         </motion.div>
       </div>

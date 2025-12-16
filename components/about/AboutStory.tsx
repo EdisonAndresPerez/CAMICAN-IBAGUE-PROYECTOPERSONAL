@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useInView } from "framer-motion"
-import { useRef } from "react"
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 export function AboutStory() {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
     <section ref={ref} className="py-24 bg-background">
@@ -17,21 +17,35 @@ export function AboutStory() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Nuestra Historia</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
+              Nuestra Historia
+            </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                En 2009, fundamos <span className="font-semibold text-foreground">SecureView Pro</span> con una misión
-                clara: democratizar la seguridad profesional haciéndola accesible para todos.
+                En 2025, fundamos{" "}
+                <span className="font-semibold text-foreground">
+                  CamiCan
+                </span>{" "}
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tenetur amet, non, iusto voluptatum sequi quod hic expedita
+                consequuntur placeat et, ullam tempora! Dolore, ullam pariatur
+                deleniti officiis dignissimos voluptas aperiam?
               </p>
               <p>
-                Comenzamos como un pequeño equipo de tres técnicos apasionados por la tecnología de seguridad. Hoy somos
-                más de 50 profesionales especializados, protegiendo miles de hogares y empresas.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Sapiente, porro odio. Soluta rem cum vitae blanditiis officiis
+                totam nihil, deleniti fuga assumenda molestias, ullam unde modi
+                cumque, fugiat odio eaque.
               </p>
               <p>
-                Nuestra evolución ha sido constante: desde sistemas analógicos básicos hasta soluciones inteligentes con
-                IA, reconocimiento facial y monitoreo en tiempo real desde cualquier parte del mundo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                maiores provident delectus eos commodi similique illum in harum
+                sed, sapiente nesciunt recusandae ea impedit animi eum facere
+                voluptatem! Iure, a.
               </p>
-              <p className="font-semibold text-foreground">No solo instalamos cámaras, construimos tranquilidad.</p>
+              <p className="font-semibold text-foreground">
+                No solo instalamos cámaras, construimos tranquilidad.
+              </p>
             </div>
           </motion.div>
 
@@ -49,7 +63,9 @@ export function AboutStory() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
-                <p className="text-white text-lg font-semibold">Lider Tecnico</p>
+                <p className="text-white text-lg font-semibold">
+                  Lider Tecnico
+                </p>
                 <p className="text-slate-300 text-sm"></p>
               </div>
             </div>
@@ -60,5 +76,5 @@ export function AboutStory() {
         </div>
       </div>
     </section>
-  )
+  );
 }

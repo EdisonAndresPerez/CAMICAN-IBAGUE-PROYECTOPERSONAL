@@ -8,16 +8,16 @@ import { Linkedin, Mail } from "lucide-react";
 const team = [
   {
     name: "Edison Perez",
-    role: "CEO & Fundador",
+    role: "Fundador",
     image: "/professional-latino-man-in-business-attire-confide.jpg",
-    bio: "15+ años en seguridad electrónica",
+    bio: "Desarrollador web y entusiasta de la seguridad",
     linkedin: "#",
   },
   {
     name: "Andres Camilo",
     role: "Director de Operaciones",
     image: "/professional-latina-woman-in-business-attire-confi.jpg",
-    bio: "Experto en gestión de proyectos",
+    bio: "Experto en seguridad y gestión de proyectos",
     linkedin: "#",
   },
 ];
