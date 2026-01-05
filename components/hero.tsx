@@ -58,7 +58,7 @@ export function Hero() {
             
             {/* Botón Solicitar Cotización */}
             <div className="relative group flex justify-center">
-              <div className="absolute inset-0 bg-cyan-400/30 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
+              <div className="absolute inset-0 bg-cyan-400/30 rounded-full blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
 
               <Button
                 onClick={() => {
@@ -73,10 +73,10 @@ export function Hero() {
                 }}
                 variant="outline"
                 size="lg"
-                className="relative bg-cyan-400 text-slate-950 hover:bg-cyan-300 text-lg px-8 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan-400/50"
+                className="relative rounded-full bg-cyan-400 text-slate-950 hover:bg-cyan-300 text-lg px-8 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan-400/50"
               >
                 {/* Pulse ring */}
-                <span className="absolute inset-0 rounded-md border border-cyan-300 opacity-0 group-hover:opacity-50" />
+                <span className="absolute inset-0 rounded-full border border-cyan-300 opacity-0 group-hover:opacity-50" />
                 <span className="relative">Solicitar cotización gratis</span>
               </Button>
 
@@ -89,7 +89,7 @@ export function Hero() {
 
             {/* Botón Ver Servicios */}
             <div className="relative group flex justify-center">
-              <div className="absolute inset-0 bg-cyan-400/20 rounded-lg blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
+              <div className="absolute inset-0 bg-cyan-400/20 rounded-full blur-xl scale-0 group-hover:scale-150 transition-transform duration-500" />
 
               <Button
                 onClick={() => {
@@ -104,10 +104,10 @@ export function Hero() {
                 }}
                 variant="outline"
                 size="lg"
-                className="relative border-cyan-400 text-cyan-950 text-lg hover:bg-cyan-400 hover:text-slate-950 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan-400/50"
+                className="relative rounded-full border-cyan-400 text-cyan-950 text-lg hover:bg-cyan-400 hover:text-slate-950 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan-400/50"
               >
                 {/* Pulse ring */}
-                <span className="absolute inset-0 rounded-md border border-b-cyan-950 opacity-0 group-hover:opacity-50 group-hover:animate-ping pointer-events-none" />
+                <span className="absolute inset-0 rounded-full border border-b-cyan-950 opacity-0 group-hover:opacity-50 group-hover:animate-ping pointer-events-none" />
                 <span className="relative">Ver servicios</span>
               </Button>
 
