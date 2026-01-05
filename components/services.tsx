@@ -14,7 +14,10 @@ import { SERVICES } from '@/lib/constants'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 export function Services() {
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return window.location.hash.replace('#', '') === 'servicios'
+  })
   const sectionRef = useRef<HTMLElement>(null)
   const [activeId, setActiveId] = useState<string | null>(null)
   const resetTimer = useRef<number | null>(null)
@@ -141,7 +144,7 @@ export function Services() {
                     id={service.id}
                     className={`mx-3 group relative border-2 border-slate-200 bg-white p-6 sm:p-8 transition-all duration-500 active:scale-95 md:hover:border-cyan-400 md:hover:shadow-xl md:hover:shadow-cyan-400/10 md:hover:-translate-y-2 scroll-mt-32 ${isActive ? 'border-cyan-400 shadow-lg shadow-cyan-400/30 scale-[1.02]' : ''}`}
                     style={{
-                      animation: isVisible ? `fadeInUp 0.6s ease-out ${index * 0.1}s both` : 'none',
+                      animation: isVisible ? 'fadeInUp 0.6s ease-out both' : 'none',
                       opacity: isVisible ? 1 : 0,
                       transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
                     }}
